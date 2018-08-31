@@ -1,4 +1,4 @@
-### SwipeOut-Left
+# SwipeOut-Left
 
 ### Install
 ```bash
@@ -37,7 +37,8 @@ import { swipeoutLeft, swipeoutItem, swipeoutButton } from "swipeoutLeft";
         <div slot="right-menu">
           <swipeout-button @click.native="onButtonClick('read', index)" 
                            :visible="item.visible!=null?item.visible[0]:true" 
-                           :width="120" background-color="#c8c8cd">{{item.newItem?"标为已读":"标为未读"}}</swipeout-button>
+                           :width="120" background-color="#c8c8cd">{{item.newItem?"标为已读":"标为未读"}}
+          </swipeout-button>
           <swipeout-button @click.native="onButtonClick('delete', index)" type="warn">删除</swipeout-button>
         </div>
         <div slot="content" class="weui-cell" @click="onButtonClick('content', index)">
