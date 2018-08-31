@@ -2,7 +2,6 @@
 ![SwipeOut-Left](https://www.dropbox.com/s/7com4d32zct44nc/Vue2Editor-Centered.png?raw=1)
 
 # Install
-
 ```bash
 $ npm install --save vue2-editor
 ```
